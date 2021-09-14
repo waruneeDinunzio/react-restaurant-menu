@@ -5,7 +5,7 @@ const menu = [
     category: 'Appetizers',
     price: 7.99,
     img: './images/freshRolls.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
   },
   {
     id: 2,
@@ -78,5 +78,6 @@ const menu = [
     price: 10.99,
     img: './images/item-1.jpeg',
     desc: 'Jasmine brown rice stir-fried with soy-meat, onions, tomatoes, bell peppers, Thai basil, Chinese broccoli, and egg',
-  },
+  }
 ]
+export default menu

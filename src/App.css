@@ -8,7 +8,7 @@
 
 #nav-bar {
   background-color: bisque;
-  height: 50px;
+  height: 250px;
   width: 100%;
 }
 #nav-bar ul {
@@ -21,4 +21,7 @@
   height: 50px;
   text-align: center;
   width: 100%;
+}
+.photo {
+  height: 50vh;
 }
