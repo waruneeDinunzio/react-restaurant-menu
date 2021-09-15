@@ -8,12 +8,23 @@ import OrderOnline from './OrderOnline';
 import Testimonials from './Testimonials';
 import Contact from './Contact';
 import Menu from './Menu';
+import Categories from './Categories';
 import foods from '../data';
 import '../App.css'
+
+//const allCategories = ['all', ...new Set(foods.map((food)=> food.category))]
 const App = () => {
   const [menuItem, setMenuItems] = useState(foods);
-  const [categories, setCategories] = useState([]);
+  // const [categories, setCategories] = useState([allCategories]);
   
+  // const filterItems = (category) => {
+  //   if (category === 'all') {
+  //     setMenuItems(foods);
+  //     return;
+  //   }
+  //   const newFoods = foods.filter((food) => food.category === category);
+  //   setMenuItems(newFoods);
+  // };
 
   return (
       <div id="app">
@@ -34,10 +45,12 @@ const App = () => {
               <Testimonials />
             </Route>
             <Route exact path="/menu">
-              <Menu menuItem={menuItem}/>
+              <Menu foods={menuItem} setMenuItems={setMenuItems}/>
+              
             </Route>
           </Switch>
         <Footer />
+        
     </div>
   );
 };

@@ -3,7 +3,7 @@ import React from 'react';
 const Categories = ({ categories, filterFoods }) => {
   return (
     <div className="btn-container">
-      {/* {categories.map((category, index) => {
+      {categories.map((category, index) => {
         return (
           <button
             type="button"
@@ -14,7 +14,7 @@ const Categories = ({ categories, filterFoods }) => {
             {category}
           </button>
         );
-      })} */}
+      })} 
     </div>
   );
 };
