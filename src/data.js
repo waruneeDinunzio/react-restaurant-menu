@@ -5,15 +5,15 @@ const menu = [
     category: 'Appetizers',
     price: 7.99,
     img: './images/freshRolls.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+    desc: `Fresh lettuce, basil, carrot, avocado wrapped in rice skin and served with home made sauce`,
   },
   {
     id: 2,
     title: 'Miang Kham',
     category: 'Appetizers',
     price: 7.99,
-    img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    img: './images/miang-kham.jpeg',
+    desc: `Leaf-wrapped salad bites. Each wrap is filled with ginger, chillies, peanuts, lime, dried coconut and dried shrimp `,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const menu = [
     category: 'Appetizers',
     price: 6.99,
     img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `Sliced green papaya, carrot, cashew nut, crashed peanut in spicy lime juice `,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const menu = [
     category: 'Noodles',
     price: 15.99,
     img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `Famous Thai rice noodle dish, stir fried with, bean sprouts, scallion, egg and crush peanuts`,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const menu = [
     category: 'Noodles',
     price: 15.99,
     img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `Stir fried wide noodle with bell pepper, bamboo, string beans, carrot, broccoli, tomato & basil`,
   },
   {
     id: 6,
@@ -45,15 +45,15 @@ const menu = [
     category: 'Noodles',
     price: 15.99,
     img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `Spicy, sweet & sour in clear broth rice noodle soup with ground peanut, broccoli, and chopped cilantro & scallion`,
   },
   {
     id: 7,
-    title: 'Kapow',
+    title: 'Larb',
     category: 'Entree',
     price: 15.99,
-    img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    img: './images/larb.jpeg',
+    desc: `Finely chopped firm tofu, mushroom, with Thai chili pepper, frest mint, lemongrass, lime juice and fish sauce.`,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const menu = [
     category: 'Entree',
     price: 15.99,
     img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `Slow cooked in coconut milk with soy-meat, potato, sweet potato, bell pepper, pumpkin, basil in red curry`,
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const menu = [
     category: 'Entree',
     price: 17.99,
     img: './images/item-1.jpeg',
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    desc: `Slow cooked in coconut milk with soy-meat, string beans, eggplant, green peas, zucchini, bell peppers, basil and avocado in green curry `,
   },
   {
     id: 10,

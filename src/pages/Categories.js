@@ -5,7 +5,7 @@ const Categories = ({ categories, filterFoods }) => {
   return (
     <div className="btn-container">
       {categories[0].map((category, index) => {
-        
+        console.log(categories)
         return (
           <button
             type="button"
