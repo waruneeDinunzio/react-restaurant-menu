@@ -3,46 +3,38 @@ import RecipeInfo from './RecipeInfo';
 import axios from 'axios'
 import '../App.css'
 
-
 const Testimonials = () => {
-  const [foodsURL, setFoodsURL] = useState('')
+  
   const [recipeData, setRecipeData] = useState([])
-  const [baseUrl, setBaseUrl] = useState('https://api.edamam.com/')
-  const [api, setApi] = useState('api/recipes/v2?type=public&q=')
-  const [app_id, setApp_id] = useState('&app_id=695c6d0d')
-  const [app_ket, setApp_key] = useState('&app_key=e2ff1ff754b66b08aea4cbc4366d8f3d')
   const [searchUrl, setSearchUrl] = useState('')
+  const baseUrl = 'https://api.edamam.com/'
+  const api = 'api/recipes/v2?type=public&q='
+  const app_id = '&app_id=695c6d0d'
+  const app_ket = '&app_key=e2ff1ff754b66b08aea4cbc4366d8f3d'
+  const health = '&health=vegetarian'
+  const asiaCuisine = '&cuisineType=Asian'
+  
 
   async function fetchData () {
-    axios.get(baseUrl+api+searchUrl+app_id+app_ket)
-      //.then(response=>setFoodsURL(response.data.hits[1].recipe.image))
+    axios.get(baseUrl+api+searchUrl+app_id+app_ket+health+asiaCuisine)
+      //
       .then(response=>setRecipeData(response.data.hits))
       //.then(response=>console.log(response.data.hits))
       .catch(error => console.log(error))
       
   }
 
-  useEffect(()=> {
-   fetchData()   
-  // get url using axios
-  //axios.get('https://api.edamam.com/api/recipes/v2?type=public&q=tofu&app_id=695c6d0d&app_key=e2ff1ff754b66b08aea4cbc4366d8f3d')
-  //axios.get(baseUrl+api+searchUrl+app_id+app_ket)
-  //.then(response=>setFoodsURL(response.data.hits[1].recipe.image))
-  //.then(response=>console.log(response.data.hits))
-  //.then(console.log(setFoodsURL))
-  //.catch(error => console.log(error))
-
+  useEffect(() => {
+    fetchData()   
 }, [])
 
     const handleChange = (e) => {
     setSearchUrl(e.target.value)
-    //console.log(foodsURL)
     }
 
     const handleSubmit = (e)=>{
         e.preventDefault()
         fetchData()
-        //console.log("you just submit search")
         setSearchUrl('')
     }
 

@@ -8,8 +8,7 @@ const Menu = ({foods,setMenuItems}) => {
   const [categories, setCategories] = useState([allCategories]);
   
   const filterItems = (category) => {
-    //console.log("clicked",category)
-    //console.log(foodList)
+    
      if (category === 'all') {
       setMenuItems(foodList);
       return
@@ -18,20 +17,7 @@ const Menu = ({foods,setMenuItems}) => {
    const newFoods = foodList.filter((food) => food.category === category);
     setMenuItems(newFoods);
   };
-    //console.log({foods})
-
-    // const [menuItem, setMenuItems] = useState(foods);
-    // const [categories, setCategories] = useState([]);
-    // console.log()
-//     const filterFoods = (category) => {
-//         if (category === 'all') {
-//          return setMenuItems(foods)
-//         }
-    
-//     const newFoods = foods.filter((food)=> food.category === category)
-//     setMenuItems(newFoods)
-// console.log(menuItem.menu.id)
-
+   
     return (
         <div>
         <h2>OUR MENU</h2>
