@@ -1,6 +1,39 @@
 /* Variables*/
-
-
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: hsl(210, 36%, 96%);;
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+.logo h1, h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:rgb(47, 122, 99);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
 
 #app {
   height: 100vh;
@@ -15,18 +48,33 @@
   height: 200px;
   width: 100%;
   display: flex;
+  /* background-image: url(./public/images/larb.JPEG) */
 }
 
 #nav-bar ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+  list-style-type: none;
+  color: black;
 }
+
+a {
+  text-decoration: none;
+}
+
 #footer {
   background-color: lightpink;
   height: 50px;
   text-align: center;
   width: 100%;
+}
+.menu {
+  padding: 5rem 0;
+}
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 .photo {
   height: 50vh;
@@ -48,6 +96,24 @@
   cursor: pointer;
   transition: var(--transition);
   border-radius: var(--radius);
+}
+.menu-section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+.menu-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+}
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted var(--clr-grey-5);
 }
 .photo {
   object-fit: cover;

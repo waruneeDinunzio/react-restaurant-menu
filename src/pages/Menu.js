@@ -19,8 +19,10 @@ const Menu = ({foods,setMenuItems}) => {
   };
    
     return (
-        <div>
+        <div className ="menu section">
+        <div className="title">
         <h2>OUR MENU</h2>
+        </div>
         <Categories categories={categories} filterFoods={filterItems} />
         {foods.map((menuItem) => {
         const { id, title, img, desc, price } = menuItem;
@@ -32,6 +34,7 @@ const Menu = ({foods,setMenuItems}) => {
         const {price} = menuItem */}
 
         return (
+          <div className="menu-section">
             <div key={id} className='menu-item'>
             <img src={img} alt={title} className='photo' />
             <div className='item-info'>
@@ -42,6 +45,7 @@ const Menu = ({foods,setMenuItems}) => {
               <p className='item-text'>{desc}</p>
             </div>
 
+          </div>
           </div>
         ) 
         }

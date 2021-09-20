@@ -5,7 +5,8 @@ const Header = () => {
     return (
         <div id="nav-bar">
             <div className="logo">
-                <h1>Jo'siYa <br/>Vegetarian Restaurant</h1>
+                <h1>Jo'siYa</h1>
+                <h3>Vegetarian Thai Cuisine</h3>
             </div>
             <div>
                 <nav>
