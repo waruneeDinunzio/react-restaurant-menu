@@ -10,7 +10,7 @@ import Contact from './Contact';
 import Menu from './Menu';
 import Categories from './Categories';
 import foods from '../data';
-import '../App.css'
+//import '../App.css'
 
 
 const App = () => {

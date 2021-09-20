@@ -1,10 +1,10 @@
 import React from 'react';
 
-const RecipeInfo = ({recipe}) => {
+const RecipeInfo = ({recipes}) => {
     //console.log(recipe)
     return (
         <div>
-          {recipe.map((recipe, index) => {
+          {recipes.map((recipe, index) => {
             
             return (
               <div>

@@ -1,3 +1,9 @@
+/* Variables*/
+
+:root {
+
+}
+
 #app {
   height: 100vh;
   display: flex;
@@ -7,9 +13,10 @@
 }
 
 #nav-bar {
-  background-color: bisque;
-  height: 250px;
+  background-color: bisque;g
+  height: 200px;
   width: 100%;
+  display: flex;
 }
 #nav-bar ul {
   display: flex;
@@ -42,4 +49,12 @@
   cursor: pointer;
   transition: var(--transition);
   border-radius: var(--radius);
+}
+.photo {
+  object-fit: cover;
+  height: 50vh;
+  width: 80%;
+  border: 0.25rem solid pink;
+  border-radius: 0.25rem;
+  display: block;
 }

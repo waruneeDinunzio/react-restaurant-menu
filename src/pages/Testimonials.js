@@ -48,7 +48,7 @@ const Testimonials = () => {
           <input type="text" id="title" value={searchUrl} onChange={handleChange}/>
           <button type="submit">Submit</button>
         </form>
-        <RecipeInfo recipe= {recipeData} />
+        <RecipeInfo recipes= {recipeData} />
       
         </div>
     );
