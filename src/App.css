@@ -13,11 +13,12 @@
 }
 
 #nav-bar {
-  background-color: bisque;g
+  background-color: bisque;
   height: 200px;
   width: 100%;
   display: flex;
 }
+
 #nav-bar ul {
   display: flex;
   justify-content: space-evenly;
