@@ -5,7 +5,7 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import Home from './Home'
 import OrderOnline from './OrderOnline';
-import Testimonials from './Testimonials';
+import HealthyRecipes from './HealthyRecipes';
 import Contact from './Contact';
 import Menu from './Menu';
 import Categories from './Categories';
@@ -31,8 +31,8 @@ const App = () => {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route exact path="/testimonials">
-              <Testimonials />
+            <Route exact path="/healthyRecipes">
+              <HealthyRecipes />
             </Route>
             <Route exact path="/menu">
               <Menu foods={menuItem} setMenuItems={setMenuItems}/> 
