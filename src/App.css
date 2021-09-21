@@ -6,8 +6,25 @@ body {
   color: hsl(209, 61%, 16%);
   line-height: 1.5;
   font-size: 0.875rem;
-  background: url("http://localhost:3000/images/banner.jpeg");
+  
 }
+.home {
+  background: url("http://localhost:3000/images/background.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  margin: 0%;
+  text-align: center;
+  vertical-align: middle;
+  position: relative
+}
+.home h1 {
+  font-size: 48px;
+  color: #49a1eb;
+  
+}
+
 .logo h1, h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:rgb(47, 122, 99);
@@ -45,11 +62,9 @@ body {
 }
 
 #nav-bar {
-  background-color: bisque;
   height: 200px;
   width: 100%;
   display: flex;
-  /* background-image: url(./public/images/larb.JPEG) */
 }
 
 .nav-bar ul{
@@ -137,7 +152,6 @@ a.instagram {
   margin: 0 0.5rem;
   letter-spacing: 1px;
   padding: 0.375rem 0.75rem;
-  color: var(--clr-gold);
   cursor: pointer;
   transition: var(--transition);
   border-radius: var(--radius);
@@ -158,8 +172,8 @@ a.instagram {
 .item-info header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px dotted var(--clr-grey-5);
-  background: url("http://localhost:3000/images/banner.jpeg");
+  border-bottom: 0.5px;
+  
 }
 
 .price {
@@ -173,18 +187,19 @@ a.instagram {
 .photo {
   object-fit: cover;
   height: 50vh;
-  width: 80%;
+  width: 100%;
   border: 0.25rem solid pink;
   border-radius: 0.25rem;
   display: block;
 }
 .headerDiv {
-  background-color: rgb(228, 196, 197);
+  background-color: rgb(156, 234, 236);
   display: flex;
   width: 100%;
   display:flex;
   justify-content: space-between;
   align-items: flex-end;
+  
 }
 /* contact*/
 .form {
@@ -255,4 +270,9 @@ span {
   border-radius:6px;
   font-size:13px;
   box-shadow:10px 10px 40px -14px #000
+}
+
+.recipeInfo {
+  border-style: solid 1px black;
+  align-items: center;
 }
