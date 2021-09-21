@@ -4,7 +4,7 @@ const menu = [
     title: 'Fresh Rolls',
     category: 'Appetizers',
     price: 7.99,
-    img: './images/freshRolls2.jpeg',
+    img: './images/freshRolls2.jpg',
     desc: `Fresh lettuce, basil, carrot, avocado wrapped in rice skin and served with home made sauce`,
   },
   {
@@ -12,7 +12,7 @@ const menu = [
     title: 'Miang Kham',
     category: 'Appetizers',
     price: 7.99,
-    img: './images/miang-kham.jpeg',
+    img: './images/miang-kham.jpg',
     desc: `Leaf-wrapped salad bites. Each wrap is filled with ginger, chillies, peanuts, lime, dried coconut and dried shrimp `,
   },
   {
@@ -20,7 +20,7 @@ const menu = [
     title: 'Som Tum',
     category: 'Appetizers',
     price: 6.99,
-    img: './images/somTum.jpeg',
+    img: './images/somTum.jpg',
     desc: `Sliced green papaya, carrot, cashew nut, crashed peanut in spicy lime juice `,
   },
   {
@@ -28,7 +28,7 @@ const menu = [
     title: 'Pad Thai',
     category: 'Noodles',
     price: 15.99,
-    img: './images/padThai.jpeg',
+    img: './images/padThai.jpg',
     desc: `Famous Thai rice noodle dish, stir fried with, bean sprouts, scallion, egg and crush peanuts`,
   },
   {
@@ -36,7 +36,7 @@ const menu = [
     title: 'Drunken Noodle',
     category: 'Noodles',
     price: 15.99,
-    img: './images/drunkenNoodles.jpeg',
+    img: './images/drunkenNoodles.jpg',
     desc: `Stir fried wide noodle with bell pepper, bamboo, string beans, carrot, broccoli, tomato & basil`,
   },
   {
@@ -44,7 +44,7 @@ const menu = [
     title: 'Tom Yum Noodle soup',
     category: 'Noodles',
     price: 15.99,
-    img: './images/tomYum.jpeg',
+    img: './images/tomYum.jpg',
     desc: `Spicy, sweet & sour in clear broth rice noodle soup with ground peanut, broccoli, and chopped cilantro & scallion`,
   },
   {
@@ -52,7 +52,7 @@ const menu = [
     title: 'Larb',
     category: 'Entree',
     price: 15.99,
-    img: './images/larb.jpeg',
+    img: './images/larb.jpg',
     desc: `Finely chopped firm tofu, mushroom, with Thai chili pepper, frest mint, lemongrass, lime juice and fish sauce.`,
   },
   {
@@ -60,7 +60,7 @@ const menu = [
     title: 'Pumpkin Curry',
     category: 'Entree',
     price: 15.99,
-    img: './images/pumpkinCurry.jpeg',
+    img: './images/pumpkinCurry.jpg',
     desc: `Slow cooked in coconut milk with soy-meat, potato, sweet potato, bell pepper, pumpkin, basil in red curry`,
   },
   {
@@ -68,7 +68,7 @@ const menu = [
     title: 'Avocado Green Curry',
     category: 'Entree',
     price: 17.99,
-    img: './images/avoGreenCurry.jpeg',
+    img: './images/avoGreenCurry.jpg',
     desc: `Slow cooked in coconut milk with soy-meat, string beans, eggplant, green peas, zucchini, bell peppers, basil and avocado in green curry `,
   },
   {
@@ -76,7 +76,7 @@ const menu = [
     title: 'Fried Rice',
     category: 'Entree',
     price: 10.99,
-    img: './images/friedRice.jpeg',
+    img: './images/friedRice.jpg',
     desc: 'Jasmine brown rice stir-fried with soy-meat, onions, tomatoes, bell peppers, Thai basil, Chinese broccoli, and egg',
   }
 ]

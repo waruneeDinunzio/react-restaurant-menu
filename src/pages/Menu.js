@@ -19,7 +19,8 @@ const Menu = ({foods,setMenuItems}) => {
   };
    
     return (
-        <div className ="menu section">
+      <main>
+        <section className ="menu section">
         <div className="title">
         <h2>OUR MENU</h2>
         </div>
@@ -35,7 +36,7 @@ const Menu = ({foods,setMenuItems}) => {
 
         return (
           <div className="menu-section">
-            <div key={id} className='menu-item'>
+            <article key={id} className='menu-item'>
             <img src={img} alt={title} className='photo' />
             <div className='item-info'>
               <header>
@@ -45,13 +46,14 @@ const Menu = ({foods,setMenuItems}) => {
               <p className='item-text'>{desc}</p>
             </div>
 
-          </div>
+          </article>
           </div>
         ) 
         }
         )}
         
-        </div>
+        </section>
+      </main>
     );
 
 }

@@ -6,6 +6,7 @@ body {
   color: hsl(209, 61%, 16%);
   line-height: 1.5;
   font-size: 0.875rem;
+  background: url("http://localhost:3000/images/banner.jpeg");
 }
 .logo h1, h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -158,7 +159,17 @@ a.instagram {
   display: flex;
   justify-content: space-between;
   border-bottom: 0.5px dotted var(--clr-grey-5);
+  background: url("http://localhost:3000/images/banner.jpeg");
 }
+
+.price {
+  color: var(--clr-gold);
+}
+.item-text {
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+
 .photo {
   object-fit: cover;
   height: 50vh;
